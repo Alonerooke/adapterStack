@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="446.0" prefWidth="495.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane prefHeight="450.0" prefWidth="495.0">
+         <children>
+            <Button layoutX="14.0" layoutY="259.0" mnemonicParsing="false" onAction="#insert" text="Добавить" />
+            <TextArea fx:id="areaTxt" layoutY="6.0" prefHeight="227.0" prefWidth="495.0" />
+            <Button layoutX="90.0" layoutY="259.0" mnemonicParsing="false" onAction="#delete" text="Удалнеие" />
+            <TextField fx:id="textF" layoutX="158.0" layoutY="259.0" />
+            <Button layoutX="324.0" layoutY="259.0" mnemonicParsing="false" onAction="#search" text="Поиск" />
+            <Button layoutX="387.0" layoutY="259.0" mnemonicParsing="false" onAction="#rewrite" text="Перезаполить" />
+         </children>
+      </Pane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
